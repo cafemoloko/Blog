@@ -1,2 +1,2 @@
 # Blog
-Simple blog page (using Flask and Bootstrap)
+Simple blog page (using Flask)
