@@ -1,7 +1,6 @@
 # Blog
 
-
-# Functionalities:
+## Functionalities:
 * Register account
 * Login
 * Add new post
@@ -9,4 +8,4 @@
 * Delete post
 
 
-To activate: python3 run.py
+## To activate: python3 run.py
