@@ -33,4 +33,9 @@ def create_app(config_class=Config):
     app.register_blueprint(users)
     app.register_blueprint(errors)
 
+    from .models import User, Post
+
+    with app.app_context():
+        db.create_all()
+
     return app
